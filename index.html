@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify - Music</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- navbar of the Application -->
+    <nav>
+      <ul>
+        <li class="navbar-brand">
+          <img src="./assets/images/spotify.png" alt="Spotify Logo" />
+          <span>Spotify</span>
+        </li>
+        <li>Home</li>
+        <li>About</li>
+      </ul>
+    </nav>
+
+    <!-- body of the Application -->
+    <div class="container">
+      <div class="song-list">
+        <!-- Heading of the song list -->
+        <h2>Quick picks</h2>
+
+        <!-- song details -->
+        <div class="song">
+          <img src="./assets/images/song-label.jpg" alt="song-label" />
+          <div>
+            <span class="song-name">Gone girl</span><br />
+            <span class="artist-name">Badshah</span>
+          </div>
+        </div>
+        
+      </div>
+      <div class="song-banner">Banner container</div>
+    </div>
+
+    <!-- footer or Player in the Application -->
+    <div class="bottom">
+      <input type="range" name="player" id="progressbar" min="0" max="100" />
+      <!-- font awesome icons -->
+      <div>
+        <i class="fa-solid fa-backward-step"></i>
+        <i class="fa-regular fa-circle-play"></i>
+        <i class="fa-solid fa-forward-step"></i>
+      </div>
+    </div>
+
+    <!-- cdn link of the font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Custom Script -->
+    <script src="script.js"></script>
+  </body>
+</html>
